@@ -53,6 +53,17 @@ namespace OOP_C_sharp
     {
         private double balance;
 
+        public Balance{
+            get{
+                return balance;
+            }
+            private set {
+                if(value < 0){
+                    throw new ArgumentException("Balance can't be negative");
+                }
+                balance = value;
+            }
+        }
         public BankAccount(double amount)
         {
             if (amount <= 0)
@@ -83,10 +94,9 @@ namespace OOP_C_sharp
             }
 
             Console.WriteLine($"Withdrawn {amount} from your account");
-            balance -= amount;
+            Balance -= amount;
         }
 
-        public double Balance => balance; // Read-only property
     }
 }
 
