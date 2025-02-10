@@ -1,0 +1,15 @@
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\bin\Debug\net9.0\OOP_C_sharp.exe
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\bin\Debug\net9.0\OOP_C_sharp.deps.json
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\bin\Debug\net9.0\OOP_C_sharp.runtimeconfig.json
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\bin\Debug\net9.0\OOP_C_sharp.dll
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\bin\Debug\net9.0\OOP_C_sharp.pdb
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.GeneratedMSBuildEditorConfig.editorconfig
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.AssemblyInfoInputs.cache
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.AssemblyInfo.cs
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.csproj.CoreCompileInputs.cache
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.sourcelink.json
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.dll
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\refint\OOP_C_sharp.dll
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.pdb
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\OOP_C_sharp.genruntimeconfig.cache
+H:\Codes\CP\OOP_C_sharp\OOP_C_sharp\obj\Debug\net9.0\ref\OOP_C_sharp.dll
