@@ -47,57 +47,57 @@
 // ❌ There's no way to initialize the balance when creating a new account.
 // ❌ The class allows negative deposits, which should not be possible.
 
-namespace OOP_C_sharp
-{
-    public class BankAccount
-    {
-        private double balance;
+// namespace OOP_C_sharp
+// {
+//     public class BankAccount
+//     {
+//         private double balance;
 
-        public Balance{
-            get{
-                return balance;
-            }
-            private set {
-                if(value < 0){
-                    throw new ArgumentException("Balance can't be negative");
-                }
-                balance = value;
-            }
-        }
-        public BankAccount(double amount)
-        {
-            if (amount <= 0)
-            {
-                throw new ArgumentException("Initial amount should be greater than 0");
-            }
-            balance = amount;
-        }
+//         public Balance{
+//             get{
+//                 return balance;
+//             }
+//             private set {
+//                 if(value < 0){
+//                     throw new ArgumentException("Balance can't be negative");
+//                 }
+//                 balance = value;
+//             }
+//         }
+//         public BankAccount(double amount)
+//         {
+//             if (amount <= 0)
+//             {
+//                 throw new ArgumentException("Initial amount should be greater than 0");
+//             }
+//             balance = amount;
+//         }
 
-        public void DepositMoney(double amount)
-        {
-            if (amount <= 0)
-            {
-                throw new ArgumentException("Deposit amount should be greater than 0");
-            }
-            balance += amount;
-        }
+//         public void DepositMoney(double amount)
+//         {
+//             if (amount <= 0)
+//             {
+//                 throw new ArgumentException("Deposit amount should be greater than 0");
+//             }
+//             balance += amount;
+//         }
 
-        public void WithdrawMoney(double amount)
-        {
-            if (amount <= 0)
-            {
-                throw new ArgumentException("Withdraw amount should be greater than 0");
-            }
-            if (balance < amount)
-            {
-                throw new InvalidOperationException("Insufficient balance");
-            }
+//         public void WithdrawMoney(double amount)
+//         {
+//             if (amount <= 0)
+//             {
+//                 throw new ArgumentException("Withdraw amount should be greater than 0");
+//             }
+//             if (balance < amount)
+//             {
+//                 throw new InvalidOperationException("Insufficient balance");
+//             }
 
-            Console.WriteLine($"Withdrawn {amount} from your account");
-            Balance -= amount;
-        }
+//             Console.WriteLine($"Withdrawn {amount} from your account");
+//             Balance -= amount;
+//         }
 
-    }
-}
+//     }
+// }
 
 
